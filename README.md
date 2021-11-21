@@ -31,7 +31,7 @@ The alias of sub-items block list is "items".
 The alias of the titles and images of sub-items are "title" and "logo" respectively.
 
 So the JSON part for this block would look like this. Not that the mainImageAlias property has an empty value since we don't have a main image for the block itself.
-
+```
 {
   "name": "sectionClientLogosBlock",
   "titleAlias": "title",
@@ -39,3 +39,4 @@ So the JSON part for this block would look like this. Not that the mainImageAlia
   "itemsAlias": "items",
   "mainImageAlias": ""
 },
+```
