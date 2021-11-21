@@ -44,6 +44,7 @@ So the JSON part for this block would look like this. Not that the **mainImageAl
 ```
 
 **Disabled sections**
+
 The grayed out section you saw on the first screnshot is a **"disabled"** section. In order to achieve this functionality, you must **add a textbox with the alias "disabled"** on each of your blocks (either stand-alone or via a composition). When a section is disabled, a different view comes in place so you can choose what to show and what to hide there.
 
 Play with the JSON a bit and see what you get.
