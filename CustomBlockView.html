@@ -1,0 +1,20 @@
+﻿<div ng-controller="Umazel.Website.Blocks.CustomBlockController as vm">
+
+    <button type="button" class="btn-reset umb-outline blockelement-labelblock-editor blockelement__draggable-element dotsee-list-button"
+            ng-click="api.editBlock(block, block.hideContentInOverlay, index, parentForm)"
+            ng-focus="block.focus"
+            ng-class="{ '--active': block.active, '--error': parentForm.$invalid && valFormManager.isShowingValidation() }"
+            val-server-property-class="">
+        
+        <i class="icon {{block.content.icon}}"
+           aria-hidden="true"></i>
+        
+        <div ng-if="vm.isDisabled==false">
+            <custom-block-item-detail item="vm"></custom-block-item-detail>
+        </div>
+       
+        <div ng-if="vm.isDisabled==true" style="color:#bbbbbb">
+            <custom-block-disabled-item-detail item="vm"></custom-block-disabled-item-detail>
+        </div>
+    </button>
+</div>

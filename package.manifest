@@ -1,0 +1,10 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/CustomBlockView/CustomBlock.controller.js",
+    "~/App_Plugins/CustomBlockView/CustomBlockItemDetail.js",
+    "~/App_Plugins/CustomBlockView/CustomBlockDisabledItemDetail.js"
+  ],
+  "css": [
+    "~/App_Plugins/CustomBlockView/css/CustomBlockView.css" 
+  ]
+}

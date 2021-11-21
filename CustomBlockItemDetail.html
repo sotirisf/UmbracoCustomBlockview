@@ -1,0 +1,45 @@
+﻿<div class="dotsee-item-header">
+    <div class="dotsee-item-header-titles">
+        {{$ctrl.item.label}}
+
+        <div class="umb-sub-views-nav-item-text"
+             style="margin-bottom:10px;margin-left:0px;margin-top:2px;"
+             ng-if="$ctrl.item.childItemsCount>0">
+            {{$ctrl.item.childItemsCount}} items
+
+            <span style="margin-left:20px;">
+                (Block: {{$ctrl.item.blockName}})
+            </span>
+        </div>
+
+        <div class="umb-sub-views-nav-item-text"
+             style="margin-bottom:10px;margin-left:0px;margin-top:2px;"
+             ng-if="$ctrl.item.childItemsCount==0">
+            <span style="margin-left:0px;">
+                (Block: {{$ctrl.item.blockName}})
+            </span>
+        </div>
+    </div>
+    <div ng-if="$ctrl.item.mainImage" class="dotsee-item-header-image" style="background-image: url({{$ctrl.item.mainImage}})">
+    </div>
+</div>
+
+<div class="umb-sub-views-nav-item-text dotsee-item-list"
+     ng-if="$ctrl.item.childItemsCount>0 && !$ctrl.item.hasImages">
+    <ul>
+        <li ng-repeat="item in $ctrl.item.subItems track by $index">
+            {{item.title}}
+        </li>
+    </ul>
+</div>
+
+<div class="umb-sub-views-nav-item-text dotsee-thumb-list"
+     ng-if="$ctrl.item.childItemsCount>0 && $ctrl.item.hasImages">
+    <ul>
+        <li ng-repeat="item in $ctrl.item.subItems track by $index">
+            <img src="{{item.image}}">
+            <span>{{item.title}}</span>
+        </li>
+    </ul>
+</div>
+

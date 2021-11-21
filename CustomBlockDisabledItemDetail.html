@@ -1,0 +1,18 @@
+﻿{{$ctrl.item.label}}
+<div class="umb-sub-views-nav-item-text"
+     style="margin-bottom:10px;margin-left:0px;margin-top:2px;color:#bbbbbb;"
+     ng-if="$ctrl.item.childItemsCount>0">
+    {{$ctrl.item.childItemsCount}} items
+
+    <span style="margin-left:20px;">
+        Block: {{$ctrl.item.blockName}}
+    </span>
+</div>
+
+<div class="umb-sub-views-nav-item-text"
+     style="margin-bottom:10px;margin-left:0px;margin-top:2px;"
+     ng-if="$ctrl.item.childItemsCount==0">
+    <span style="margin-left:0px;">
+        (Block: {{$ctrl.item.blockName}})
+    </span>
+</div>

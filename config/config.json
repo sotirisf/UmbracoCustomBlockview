@@ -1,0 +1,50 @@
+﻿{
+  "name": "items",
+  "defaultTitleAlias": "title",
+  "defaultItemsAlias": "items",
+
+  "items": [
+    {
+      "name": "sectionTeamBlock",
+      "titleAlias": "teamMemberName",
+      "thumbsAlias": "image",
+      "itemsAlias": "items",
+      "mainImageAlias": ""
+    },
+    {
+      "name": "sectionClientLogosBlock",
+      "titleAlias": "title",
+      "thumbsAlias": "logo",
+      "itemsAlias": "items",
+      "mainImageAlias": ""
+    },
+    {
+      "name": "sectionActionBoxBlock",
+      "titleAlias": "",
+      "thumbsAlias": "",
+      "itemsAlias": "",
+      "mainImageAlias": "image"
+    },
+    {
+      "name": "sectionImageBannerBlock",
+      "titleAlias": "",
+      "thumbsAlias": "",
+      "itemsAlias": "",
+      "mainImageAlias": "image"
+    },
+    {
+      "name": "sectionStatementBlock",
+      "titleAlias": "",
+      "thumbsAlias": "",
+      "itemsAlias": "",
+      "mainImageAlias": "icon"
+    },
+    {
+      "name": "sectionRevealingCardsBlock",
+      "titleAlias": "title",
+      "thumbsAlias": "cardImage",
+      "itemsAlias": "items",
+      "mainImageAlias": ""
+    }
+  ]
+}
