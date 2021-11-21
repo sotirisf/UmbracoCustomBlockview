@@ -22,4 +22,20 @@ There are also two default properties:
 - **defaultItemsAlias**: The default property alias for any sub-items block list for any block not explicitly declared in the JSON file.
 - **defaultTitleAlias**: The default property for sub-item titles for any block not explicitly declared in the JSON file.
 
+For example, the Certifications / Awards section has the following setup:
 
+![image](https://user-images.githubusercontent.com/1838996/142765573-489f84fc-5c2d-4d31-905a-57d3b14baf5d.png)
+
+The alias of the Certifications/Awards block is "sectionClientLogosBlock".
+The alias of sub-items block list is "items".
+The alias of the titles and images of sub-items are "title" and "logo" respectively.
+
+So the JSON part for this block would look like this. Not that the mainImageAlias property has an empty value since we don't have a main image for the block itself.
+
+{
+  "name": "sectionClientLogosBlock",
+  "titleAlias": "title",
+  "thumbsAlias": "logo",
+  "itemsAlias": "items",
+  "mainImageAlias": ""
+},
