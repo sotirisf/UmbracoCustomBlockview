@@ -53,4 +53,6 @@ Play with the JSON a bit and see what you get.
 
 This has been tested on Umbraco V8, but I suspect it'll play well on Umbraco V9 as well.
 
+Developed by Sotiris Filippidis (sotirisf) and Vassilis Fotopoulos (vasfoto)
+
 
