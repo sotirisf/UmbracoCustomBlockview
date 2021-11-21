@@ -10,15 +10,16 @@ Usage:
 ![image](https://user-images.githubusercontent.com/1838996/142765239-06c1b0e7-3e8a-46ed-8a8a-c7a7b9f9471a.png)
 
 **How it works**
+
 The config.json file contains all the info required for this view to work. Specifically, there are 4 property aliases you can set:
 
-- itemsAlias: The property alias of your sub-items block list (if your block contains such sub-items)
-- titleAlias: The property alias for the title of each sub-item
--thumbsAlias: The property alias for the image of each sub-item
-- mainImageAlias: The property alias for the block's main image (if any)
+- **itemsAlias**: The property alias of your sub-items block list (if your block contains such sub-items)
+- **titleAlias**: The property alias for the title of each sub-item
+-**thumbsAlias**: The property alias for the image of each sub-item
+- **mainImageAlias**: The property alias for the block's main image (if any)
 
 There are also two default properties:
-- defaultItemsAlias: The default property alias for any sub-items block list for any block not explicitly declared in the JSON file.
-- defaultTitleAlias: The default property for sub-item titles for any block not explicitly declared in the JSON file.
+- **defaultItemsAlias**: The default property alias for any sub-items block list for any block not explicitly declared in the JSON file.
+- **defaultTitleAlias**: The default property for sub-item titles for any block not explicitly declared in the JSON file.
 
 
