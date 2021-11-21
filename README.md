@@ -42,3 +42,14 @@ So the JSON part for this block would look like this. Not that the **mainImageAl
   "mainImageAlias": ""
 },
 ```
+
+**Disabled sections**
+The grayed out section you saw on the first screnshot is a **"disabled"** section. In order to achieve this functionality, you must **add a textbox with the alias "disabled"** on each of your blocks (either stand-alone or via a composition). When a section is disabled, a different view comes in place so you can choose what to show and what to hide there.
+
+Play with the JSON a bit and see what you get.
+
+**Disclaimer**: My AngularJS skills are extremely poor. I strongly believe there are better ways to go with this, including not reading the JSON file for every block. You're welcome to fork this and provide your own implementation. This is just a demonstration of what you can achieve with custom back office views in Umbraco.
+
+This has been tested on Umbraco V8, but I suspect it'll play well on Umbraco V9 as well.
+
+
