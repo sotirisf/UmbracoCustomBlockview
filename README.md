@@ -15,7 +15,7 @@ The config.json file contains all the info required for this view to work. Speci
 
 - **itemsAlias**: The property alias of your sub-items block list (if your block contains such sub-items)
 - **titleAlias**: The property alias for the title of each sub-item
--**thumbsAlias**: The property alias for the image of each sub-item
+- **thumbsAlias**: The property alias for the image of each sub-item
 - **mainImageAlias**: The property alias for the block's main image (if any)
 
 There are also two default properties:
